@@ -105,6 +105,7 @@ public class MercatoTest {
 
         List<UserPlayer> userPlayers = new ArrayList<UserPlayer>();
         UserPlayer userPlayer = new UserPlayer();
+        userPlayers.add(userPlayer);
 
         return userPlayers;
     }

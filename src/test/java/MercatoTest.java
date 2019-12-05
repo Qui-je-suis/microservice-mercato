@@ -1,3 +1,8 @@
+/**
+ *-------------------------------------------------------------------------
+ * Copyright (C) 2019 QUI JE SUIS !!!. All rights reserved
+ *-------------------------------------------------------------------------
+ */
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import mgb.mmercato.model.AvailablePlayer;
@@ -5,7 +10,6 @@ import mgb.mmercato.model.Mercato;
 import mgb.mmercato.model.UserPlayer;
 import org.junit.Test;
 
-import javax.xml.transform.sax.SAXSource;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.nio.file.Files;

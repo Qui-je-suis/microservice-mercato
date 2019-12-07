@@ -1,178 +1,212 @@
 /**
- *-------------------------------------------------------------------------
+ * -------------------------------------------------------------------------
  * Copyright (C) 2019 QUI JE SUIS !!!. All rights reserved
- *-------------------------------------------------------------------------
+ * -------------------------------------------------------------------------
  */
 package mgb.mmercato.model;
 
 import java.util.List;
 
-public class Mercato {
+public class Mercato
+{
 
-    private String leagueId;
-    private int turn;
-    private int season;
-    private int statusLeague;
-    private String currentUser;
-    private int championship;
-    private int statusTeam;
-    private int leagueMode;
-    private int budget;
-    private String currentTeam;
-    private List<AvailablePlayer> availablePlayers;
-    private List<UserPlayer> userPlayers;
-    private int nextMatchIn;
-    private int matchesToComeMercato;
-    private int matchesToComeReal;
-    private int nextTurnIn;
+  private String leagueId;
 
-    public String getLeagueId() {
-        return leagueId;
-    }
+  private int turn;
 
-    public void setLeagueId(String leagueId) {
-        this.leagueId = leagueId;
-    }
+  private int season;
 
-    public int getTurn() {
-        return turn;
-    }
+  private int statusLeague;
 
-    public void setTurn(int turn) {
-        this.turn = turn;
-    }
+  private String currentUser;
 
-    public int getSeason() {
-        return season;
-    }
+  private int championship;
 
-    public void setSeason(int season) {
-        this.season = season;
-    }
+  private int statusTeam;
 
-    public int getStatusLeague() {
-        return statusLeague;
-    }
+  private int leagueMode;
 
-    public void setStatusLeague(int statusLeague) {
-        this.statusLeague = statusLeague;
-    }
+  private int budget;
 
-    public String getCurrentUser() {
-        return currentUser;
-    }
+  private String currentTeam;
 
-    public void setCurrentUser(String currentUser) {
-        this.currentUser = currentUser;
-    }
+  private List<AvailablePlayer> availablePlayers;
 
-    public int getChampionship() {
-        return championship;
-    }
+  private List<UserPlayer> userPlayers;
 
-    public void setChampionship(int championship) {
-        this.championship = championship;
-    }
+  private int nextMatchIn;
 
-    public int getStatusTeam() {
-        return statusTeam;
-    }
+  private int matchesToComeMercato;
 
-    public void setStatusTeam(int statusTeam) {
-        this.statusTeam = statusTeam;
-    }
+  private int matchesToComeReal;
 
-    public int getLeagueMode() {
-        return leagueMode;
-    }
+  private int nextTurnIn;
 
-    public void setLeagueMode(int leagueMode) {
-        this.leagueMode = leagueMode;
-    }
+  public String getLeagueId()
+  {
+    return leagueId;
+  }
 
-    public int getBudget() {
-        return budget;
-    }
+  public void setLeagueId(String leagueId)
+  {
+    this.leagueId = leagueId;
+  }
 
-    public void setBudget(int budget) {
-        this.budget = budget;
-    }
+  public int getTurn()
+  {
+    return turn;
+  }
 
-    public String getCurrentTeam() {
-        return currentTeam;
-    }
+  public void setTurn(int turn)
+  {
+    this.turn = turn;
+  }
 
-    public void setCurrentTeam(String currentTeam) {
-        this.currentTeam = currentTeam;
-    }
+  public int getSeason()
+  {
+    return season;
+  }
 
-    public List<AvailablePlayer> getAvailablePlayers() {
-        return availablePlayers;
-    }
+  public void setSeason(int season)
+  {
+    this.season = season;
+  }
 
-    public void setAvailablePlayers(List<AvailablePlayer> availablePlayers) {
-        this.availablePlayers = availablePlayers;
-    }
+  public int getStatusLeague()
+  {
+    return statusLeague;
+  }
 
-    public List<UserPlayer> getUserPlayers() {
-        return userPlayers;
-    }
+  public void setStatusLeague(int statusLeague)
+  {
+    this.statusLeague = statusLeague;
+  }
 
-    public void setUserPlayers(List<UserPlayer> userPlayers) {
-        this.userPlayers = userPlayers;
-    }
+  public String getCurrentUser()
+  {
+    return currentUser;
+  }
 
-    public int getNextMatchIn() {
-        return nextMatchIn;
-    }
+  public void setCurrentUser(String currentUser)
+  {
+    this.currentUser = currentUser;
+  }
 
-    public void setNextMatchIn(int nextMatchIn) {
-        this.nextMatchIn = nextMatchIn;
-    }
+  public int getChampionship()
+  {
+    return championship;
+  }
 
-    public int getMatchesToComeMercato() {
-        return matchesToComeMercato;
-    }
+  public void setChampionship(int championship)
+  {
+    this.championship = championship;
+  }
 
-    public void setMatchesToComeMercato(int matchesToComeMercato) {
-        this.matchesToComeMercato = matchesToComeMercato;
-    }
+  public int getStatusTeam()
+  {
+    return statusTeam;
+  }
 
-    public int getMatchesToComeReal() {
-        return matchesToComeReal;
-    }
+  public void setStatusTeam(int statusTeam)
+  {
+    this.statusTeam = statusTeam;
+  }
 
-    public void setMatchesToComeReal(int matchesToComeReal) {
-        this.matchesToComeReal = matchesToComeReal;
-    }
+  public int getLeagueMode()
+  {
+    return leagueMode;
+  }
 
-    public int getNextTurnIn() {
-        return nextTurnIn;
-    }
+  public void setLeagueMode(int leagueMode)
+  {
+    this.leagueMode = leagueMode;
+  }
 
-    public void setNextTurnIn(int nextTurnIn) {
-        this.nextTurnIn = nextTurnIn;
-    }
+  public int getBudget()
+  {
+    return budget;
+  }
 
-    @Override
-    public String toString() {
-        return "Mercato{" +
-                "leagueId='" + leagueId + '\'' +
-                ", turn=" + turn +
-                ", season=" + season +
-                ", statusLeague=" + statusLeague +
-                ", currentUser='" + currentUser + '\'' +
-                ", championship=" + championship +
-                ", statusTeam=" + statusTeam +
-                ", leagueMode=" + leagueMode +
-                ", budget=" + budget +
-                ", currentTeam='" + currentTeam + '\'' +
-                ", availablePlayers=" + availablePlayers +
-                ", userPlayers=" + userPlayers +
-                ", nextMatchIn=" + nextMatchIn +
-                ", matchesToComeMercato=" + matchesToComeMercato +
-                ", matchesToComeReal=" + matchesToComeReal +
-                ", nextTurnIn=" + nextTurnIn +
-                '}';
-    }
+  public void setBudget(int budget)
+  {
+    this.budget = budget;
+  }
+
+  public String getCurrentTeam()
+  {
+    return currentTeam;
+  }
+
+  public void setCurrentTeam(String currentTeam)
+  {
+    this.currentTeam = currentTeam;
+  }
+
+  public List<AvailablePlayer> getAvailablePlayers()
+  {
+    return availablePlayers;
+  }
+
+  public void setAvailablePlayers(List<AvailablePlayer> availablePlayers)
+  {
+    this.availablePlayers = availablePlayers;
+  }
+
+  public List<UserPlayer> getUserPlayers()
+  {
+    return userPlayers;
+  }
+
+  public void setUserPlayers(List<UserPlayer> userPlayers)
+  {
+    this.userPlayers = userPlayers;
+  }
+
+  public int getNextMatchIn()
+  {
+    return nextMatchIn;
+  }
+
+  public void setNextMatchIn(int nextMatchIn)
+  {
+    this.nextMatchIn = nextMatchIn;
+  }
+
+  public int getMatchesToComeMercato()
+  {
+    return matchesToComeMercato;
+  }
+
+  public void setMatchesToComeMercato(int matchesToComeMercato)
+  {
+    this.matchesToComeMercato = matchesToComeMercato;
+  }
+
+  public int getMatchesToComeReal()
+  {
+    return matchesToComeReal;
+  }
+
+  public void setMatchesToComeReal(int matchesToComeReal)
+  {
+    this.matchesToComeReal = matchesToComeReal;
+  }
+
+  public int getNextTurnIn()
+  {
+    return nextTurnIn;
+  }
+
+  public void setNextTurnIn(int nextTurnIn)
+  {
+    this.nextTurnIn = nextTurnIn;
+  }
+
+  @Override public String toString()
+  {
+    return "Mercato{" + "leagueId='" + leagueId + '\'' + ", turn=" + turn + ", season=" + season + ", statusLeague=" + statusLeague + ", currentUser='"
+            + currentUser + '\'' + ", championship=" + championship + ", statusTeam=" + statusTeam + ", leagueMode=" + leagueMode + ", budget=" + budget
+            + ", currentTeam='" + currentTeam + '\'' + ", availablePlayers=" + availablePlayers + ", userPlayers=" + userPlayers + ", nextMatchIn="
+            + nextMatchIn + ", matchesToComeMercato=" + matchesToComeMercato + ", matchesToComeReal=" + matchesToComeReal + ", nextTurnIn=" + nextTurnIn + '}';
+  }
 }

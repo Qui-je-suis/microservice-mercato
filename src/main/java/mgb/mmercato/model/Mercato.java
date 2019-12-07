@@ -10,21 +10,21 @@ import java.util.List;
 public class Mercato {
 
     private String leagueId;
-    private Integer turn;
-    private Integer season;
-    private Integer statusLeague;
+    private int turn;
+    private int season;
+    private int statusLeague;
     private String currentUser;
-    private Integer championship;
-    private Integer statusTeam;
-    private Integer leagueMode;
-    private Integer budget;
+    private int championship;
+    private int statusTeam;
+    private int leagueMode;
+    private int budget;
     private String currentTeam;
     private List<AvailablePlayer> availablePlayers;
     private List<UserPlayer> userPlayers;
-    private Integer nextMatchIn;
-    private Integer matchesToComeMercato;
-    private Integer matchesToComeReal;
-    private Integer nextTurnIn;
+    private int nextMatchIn;
+    private int matchesToComeMercato;
+    private int matchesToComeReal;
+    private int nextTurnIn;
 
     public String getLeagueId() {
         return leagueId;
@@ -34,27 +34,27 @@ public class Mercato {
         this.leagueId = leagueId;
     }
 
-    public Integer getTurn() {
+    public int getTurn() {
         return turn;
     }
 
-    public void setTurn(Integer turn) {
+    public void setTurn(int turn) {
         this.turn = turn;
     }
 
-    public Integer getSeason() {
+    public int getSeason() {
         return season;
     }
 
-    public void setSeason(Integer season) {
+    public void setSeason(int season) {
         this.season = season;
     }
 
-    public Integer getStatusLeague() {
+    public int getStatusLeague() {
         return statusLeague;
     }
 
-    public void setStatusLeague(Integer statusLeague) {
+    public void setStatusLeague(int statusLeague) {
         this.statusLeague = statusLeague;
     }
 
@@ -66,35 +66,35 @@ public class Mercato {
         this.currentUser = currentUser;
     }
 
-    public Integer getChampionship() {
+    public int getChampionship() {
         return championship;
     }
 
-    public void setChampionship(Integer championship) {
+    public void setChampionship(int championship) {
         this.championship = championship;
     }
 
-    public Integer getStatusTeam() {
+    public int getStatusTeam() {
         return statusTeam;
     }
 
-    public void setStatusTeam(Integer statusTeam) {
+    public void setStatusTeam(int statusTeam) {
         this.statusTeam = statusTeam;
     }
 
-    public Integer getLeagueMode() {
+    public int getLeagueMode() {
         return leagueMode;
     }
 
-    public void setLeagueMode(Integer leagueMode) {
+    public void setLeagueMode(int leagueMode) {
         this.leagueMode = leagueMode;
     }
 
-    public Integer getBudget() {
+    public int getBudget() {
         return budget;
     }
 
-    public void setBudget(Integer budget) {
+    public void setBudget(int budget) {
         this.budget = budget;
     }
 
@@ -122,35 +122,35 @@ public class Mercato {
         this.userPlayers = userPlayers;
     }
 
-    public Integer getNextMatchIn() {
+    public int getNextMatchIn() {
         return nextMatchIn;
     }
 
-    public void setNextMatchIn(Integer nextMatchIn) {
+    public void setNextMatchIn(int nextMatchIn) {
         this.nextMatchIn = nextMatchIn;
     }
 
-    public Integer getMatchesToComeMercato() {
+    public int getMatchesToComeMercato() {
         return matchesToComeMercato;
     }
 
-    public void setMatchesToComeMercato(Integer matchesToComeMercato) {
+    public void setMatchesToComeMercato(int matchesToComeMercato) {
         this.matchesToComeMercato = matchesToComeMercato;
     }
 
-    public Integer getMatchesToComeReal() {
+    public int getMatchesToComeReal() {
         return matchesToComeReal;
     }
 
-    public void setMatchesToComeReal(Integer matchesToComeReal) {
+    public void setMatchesToComeReal(int matchesToComeReal) {
         this.matchesToComeReal = matchesToComeReal;
     }
 
-    public Integer getNextTurnIn() {
+    public int getNextTurnIn() {
         return nextTurnIn;
     }
 
-    public void setNextTurnIn(Integer nextTurnIn) {
+    public void setNextTurnIn(int nextTurnIn) {
         this.nextTurnIn = nextTurnIn;
     }
 

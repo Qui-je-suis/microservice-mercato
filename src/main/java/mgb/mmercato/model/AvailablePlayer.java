@@ -10,9 +10,9 @@ public class AvailablePlayer {
     private String id;
     private String lastname;
     private String firstname;
-    private Integer position;
-    private Integer quotation;
-    private Integer ultraPosition;
+    private int position;
+    private int quotation;
+    private int ultraPosition;
     private String club;
     private String teamid;
     private String joinDate;
@@ -41,27 +41,27 @@ public class AvailablePlayer {
         this.firstname = firstname;
     }
 
-    public Integer getPosition() {
+    public int getPosition() {
         return position;
     }
 
-    public void setPosition(Integer position) {
+    public void setPosition(int position) {
         this.position = position;
     }
 
-    public Integer getQuotation() {
+    public int getQuotation() {
         return quotation;
     }
 
-    public void setQuotation(Integer quotation) {
+    public void setQuotation(int quotation) {
         this.quotation = quotation;
     }
 
-    public Integer getUltraPosition() {
+    public int getUltraPosition() {
         return ultraPosition;
     }
 
-    public void setUltraPosition(Integer ultraPosition) {
+    public void setUltraPosition(int ultraPosition) {
         this.ultraPosition = ultraPosition;
     }
 

@@ -75,6 +75,7 @@ public class MercatoTest {
         List<AvailablePlayer> availablePlayers = createPlayers();
         mercato.setAvailablePlayers(availablePlayers);
         List<UserPlayer> userPlayers = createUserPlayers();
+        mercato.setUserPlayers(userPlayers);
         mercato.setNextMatchIn(123456);
         mercato.setMatchesToComeMercato(50);
         mercato.setMatchesToComeReal(50);
@@ -104,7 +105,7 @@ public class MercatoTest {
     private List<UserPlayer> createUserPlayers() {
 
         List<UserPlayer> userPlayers = new ArrayList<UserPlayer>();
-        UserPlayer userPlayer = new UserPlayer();
+        UserPlayer userPlayer = new UserPlayer(null, null, null);
         userPlayers.add(userPlayer);
 
         return userPlayers;

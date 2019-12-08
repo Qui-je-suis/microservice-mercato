@@ -10,14 +10,14 @@ import java.util.Date;
 public class UserPlayer extends AvailablePlayer {
 
     private Integer pricePaid;
-    private Date buying_date;
+    private Date buyingDate;
     private Integer status;
 
 
-    public UserPlayer(Integer pricePaid, Date buying_date, Integer status) {
+    public UserPlayer(Integer pricePaid, Date buyingDate, Integer status) {
         super();
         this.pricePaid = pricePaid;
-        this.buying_date = buying_date;
+        this.buyingDate = buyingDate;
         this.status = status;
     }
 
@@ -29,12 +29,12 @@ public class UserPlayer extends AvailablePlayer {
         this.pricePaid = pricePaid;
     }
 
-    public Date getBuying_date() {
-        return buying_date;
+    public Date getBuyingDate() {
+        return buyingDate;
     }
 
-    public void setBuying_date(Date buying_date) {
-        this.buying_date = buying_date;
+    public void setBuyingDate(Date buyingDate) {
+        this.buyingDate = buyingDate;
     }
 
     public Integer getStatus() {

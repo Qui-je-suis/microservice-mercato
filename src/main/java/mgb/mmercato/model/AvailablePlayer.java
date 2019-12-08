@@ -1,106 +1,125 @@
 /**
- *-------------------------------------------------------------------------
+ * -------------------------------------------------------------------------
  * Copyright (C) 2019 QUI JE SUIS !!!. All rights reserved
- *-------------------------------------------------------------------------
+ * -------------------------------------------------------------------------
  */
 package mgb.mmercato.model;
 
-public class AvailablePlayer {
+public class AvailablePlayer
+{
 
-    private String id;
-    private String lastname;
-    private String firstname;
-    private Integer position;
-    private Integer quotation;
-    private Integer ultraPosition;
-    private String club;
-    private String teamid;
-    private String joinDate;
+  private String id;
 
-    public String getId() {
-        return id;
-    }
+  private String lastname;
 
-    public void setId(String id) {
-        this.id = id;
-    }
+  private String firstname;
 
-    public String getLastname() {
-        return lastname;
-    }
+  private Integer position;
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
+  private Integer quotation;
 
-    public String getFirstname() {
-        return firstname;
-    }
+  private Integer ultraPosition;
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
+  private String club;
 
-    public Integer getPosition() {
-        return position;
-    }
+  private String teamid;
 
-    public void setPosition(Integer position) {
-        this.position = position;
-    }
+  private String joinDate;
 
-    public Integer getQuotation() {
-        return quotation;
-    }
+  public String getId()
+  {
+    return id;
+  }
 
-    public void setQuotation(Integer quotation) {
-        this.quotation = quotation;
-    }
+  public void setId(String id)
+  {
+    this.id = id;
+  }
 
-    public Integer getUltraPosition() {
-        return ultraPosition;
-    }
+  public String getLastname()
+  {
+    return lastname;
+  }
 
-    public void setUltraPosition(Integer ultraPosition) {
-        this.ultraPosition = ultraPosition;
-    }
+  public void setLastname(String lastname)
+  {
+    this.lastname = lastname;
+  }
 
-    public String getClub() {
-        return club;
-    }
+  public String getFirstname()
+  {
+    return firstname;
+  }
 
-    public void setClub(String club) {
-        this.club = club;
-    }
+  public void setFirstname(String firstname)
+  {
+    this.firstname = firstname;
+  }
 
-    public String getTeamid() {
-        return teamid;
-    }
+  public Integer getPosition()
+  {
+    return position;
+  }
 
-    public void setTeamid(String teamid) {
-        this.teamid = teamid;
-    }
+  public void setPosition(Integer position)
+  {
+    this.position = position;
+  }
 
-    public String getJoinDate() {
-        return joinDate;
-    }
+  public Integer getQuotation()
+  {
+    return quotation;
+  }
 
-    public void setJoinDate(String joinDate) {
-        this.joinDate = joinDate;
-    }
+  public void setQuotation(Integer quotation)
+  {
+    this.quotation = quotation;
+  }
 
-    @Override
-    public String toString() {
-        return "AvailablePlayer{" +
-                "id='" + id + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", firstname='" + firstname + '\'' +
-                ", position=" + position +
-                ", quotation=" + quotation +
-                ", ultraPosition=" + ultraPosition +
-                ", club='" + club + '\'' +
-                ", teamid='" + teamid + '\'' +
-                ", joinDate='" + joinDate + '\'' +
-                '}';
-    }
+  public Integer getUltraPosition()
+  {
+    return ultraPosition;
+  }
+
+  public void setUltraPosition(Integer ultraPosition)
+  {
+    this.ultraPosition = ultraPosition;
+  }
+
+  public String getClub()
+  {
+    return club;
+  }
+
+  public void setClub(String club)
+  {
+    this.club = club;
+  }
+
+  public String getTeamid()
+  {
+    return teamid;
+  }
+
+  public void setTeamid(String teamid)
+  {
+    this.teamid = teamid;
+  }
+
+  public String getJoinDate()
+  {
+    return joinDate;
+  }
+
+  public void setJoinDate(String joinDate)
+  {
+    this.joinDate = joinDate;
+  }
+
+  @Override public String toString()
+  {
+    return "AvailablePlayer{" + "id='" + id + '\'' + ", lastname='" + lastname + '\'' + ", firstname='" + firstname + '\'' + ", position=" + position
+            + ", quotation=" + quotation + ", ultraPosition=" + ultraPosition + ", club='" + club + '\'' + ", teamid='" + teamid + '\'' + ", joinDate='"
+            + joinDate + '\'' + '}';
+  }
 }

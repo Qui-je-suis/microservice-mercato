@@ -1,178 +1,212 @@
 /**
- *-------------------------------------------------------------------------
+ * -------------------------------------------------------------------------
  * Copyright (C) 2019 QUI JE SUIS !!!. All rights reserved
- *-------------------------------------------------------------------------
+ * -------------------------------------------------------------------------
  */
 package mgb.mmercato.model;
 
 import java.util.List;
 
-public class Mercato {
+public class Mercato
+{
 
-    private String leagueId;
-    private Integer turn;
-    private Integer season;
-    private Integer statusLeague;
-    private String currentUser;
-    private Integer championship;
-    private Integer statusTeam;
-    private Integer leagueMode;
-    private Integer budget;
-    private String currentTeam;
-    private List<AvailablePlayer> availablePlayers;
-    private List<UserPlayer> userPlayers;
-    private Integer nextMatchIn;
-    private Integer matchesToComeMercato;
-    private Integer matchesToComeReal;
-    private Integer nextTurnIn;
+  private String leagueId;
 
-    public String getLeagueId() {
-        return leagueId;
-    }
+  private Integer turn;
 
-    public void setLeagueId(String leagueId) {
-        this.leagueId = leagueId;
-    }
+  private Integer season;
 
-    public Integer getTurn() {
-        return turn;
-    }
+  private Integer statusLeague;
 
-    public void setTurn(Integer turn) {
-        this.turn = turn;
-    }
+  private String currentUser;
 
-    public Integer getSeason() {
-        return season;
-    }
+  private Integer championship;
 
-    public void setSeason(Integer season) {
-        this.season = season;
-    }
+  private Integer statusTeam;
 
-    public Integer getStatusLeague() {
-        return statusLeague;
-    }
+  private Integer leagueMode;
 
-    public void setStatusLeague(Integer statusLeague) {
-        this.statusLeague = statusLeague;
-    }
+  private Integer budget;
 
-    public String getCurrentUser() {
-        return currentUser;
-    }
+  private String currentTeam;
 
-    public void setCurrentUser(String currentUser) {
-        this.currentUser = currentUser;
-    }
+  private List<AvailablePlayer> availablePlayers;
 
-    public Integer getChampionship() {
-        return championship;
-    }
+  private List<UserPlayer> userPlayers;
 
-    public void setChampionship(Integer championship) {
-        this.championship = championship;
-    }
+  private Integer nextMatchIn;
 
-    public Integer getStatusTeam() {
-        return statusTeam;
-    }
+  private Integer matchesToComeMercato;
 
-    public void setStatusTeam(Integer statusTeam) {
-        this.statusTeam = statusTeam;
-    }
+  private Integer matchesToComeReal;
 
-    public Integer getLeagueMode() {
-        return leagueMode;
-    }
+  private Integer nextTurnIn;
 
-    public void setLeagueMode(Integer leagueMode) {
-        this.leagueMode = leagueMode;
-    }
+  public String getLeagueId()
+  {
+    return leagueId;
+  }
 
-    public Integer getBudget() {
-        return budget;
-    }
+  public void setLeagueId(String leagueId)
+  {
+    this.leagueId = leagueId;
+  }
 
-    public void setBudget(Integer budget) {
-        this.budget = budget;
-    }
+  public Integer getTurn()
+  {
+    return turn;
+  }
 
-    public String getCurrentTeam() {
-        return currentTeam;
-    }
+  public void setTurn(Integer turn)
+  {
+    this.turn = turn;
+  }
 
-    public void setCurrentTeam(String currentTeam) {
-        this.currentTeam = currentTeam;
-    }
+  public Integer getSeason()
+  {
+    return season;
+  }
 
-    public List<AvailablePlayer> getAvailablePlayers() {
-        return availablePlayers;
-    }
+  public void setSeason(Integer season)
+  {
+    this.season = season;
+  }
 
-    public void setAvailablePlayers(List<AvailablePlayer> availablePlayers) {
-        this.availablePlayers = availablePlayers;
-    }
+  public Integer getStatusLeague()
+  {
+    return statusLeague;
+  }
 
-    public List<UserPlayer> getUserPlayers() {
-        return userPlayers;
-    }
+  public void setStatusLeague(Integer statusLeague)
+  {
+    this.statusLeague = statusLeague;
+  }
 
-    public void setUserPlayers(List<UserPlayer> userPlayers) {
-        this.userPlayers = userPlayers;
-    }
+  public String getCurrentUser()
+  {
+    return currentUser;
+  }
 
-    public Integer getNextMatchIn() {
-        return nextMatchIn;
-    }
+  public void setCurrentUser(String currentUser)
+  {
+    this.currentUser = currentUser;
+  }
 
-    public void setNextMatchIn(Integer nextMatchIn) {
-        this.nextMatchIn = nextMatchIn;
-    }
+  public Integer getChampionship()
+  {
+    return championship;
+  }
 
-    public Integer getMatchesToComeMercato() {
-        return matchesToComeMercato;
-    }
+  public void setChampionship(Integer championship)
+  {
+    this.championship = championship;
+  }
 
-    public void setMatchesToComeMercato(Integer matchesToComeMercato) {
-        this.matchesToComeMercato = matchesToComeMercato;
-    }
+  public Integer getStatusTeam()
+  {
+    return statusTeam;
+  }
 
-    public Integer getMatchesToComeReal() {
-        return matchesToComeReal;
-    }
+  public void setStatusTeam(Integer statusTeam)
+  {
+    this.statusTeam = statusTeam;
+  }
 
-    public void setMatchesToComeReal(Integer matchesToComeReal) {
-        this.matchesToComeReal = matchesToComeReal;
-    }
+  public Integer getLeagueMode()
+  {
+    return leagueMode;
+  }
 
-    public Integer getNextTurnIn() {
-        return nextTurnIn;
-    }
+  public void setLeagueMode(Integer leagueMode)
+  {
+    this.leagueMode = leagueMode;
+  }
 
-    public void setNextTurnIn(Integer nextTurnIn) {
-        this.nextTurnIn = nextTurnIn;
-    }
+  public Integer getBudget()
+  {
+    return budget;
+  }
 
-    @Override
-    public String toString() {
-        return "Mercato{" +
-                "leagueId='" + leagueId + '\'' +
-                ", turn=" + turn +
-                ", season=" + season +
-                ", statusLeague=" + statusLeague +
-                ", currentUser='" + currentUser + '\'' +
-                ", championship=" + championship +
-                ", statusTeam=" + statusTeam +
-                ", leagueMode=" + leagueMode +
-                ", budget=" + budget +
-                ", currentTeam='" + currentTeam + '\'' +
-                ", availablePlayers=" + availablePlayers +
-                ", userPlayers=" + userPlayers +
-                ", nextMatchIn=" + nextMatchIn +
-                ", matchesToComeMercato=" + matchesToComeMercato +
-                ", matchesToComeReal=" + matchesToComeReal +
-                ", nextTurnIn=" + nextTurnIn +
-                '}';
-    }
+  public void setBudget(Integer budget)
+  {
+    this.budget = budget;
+  }
+
+  public String getCurrentTeam()
+  {
+    return currentTeam;
+  }
+
+  public void setCurrentTeam(String currentTeam)
+  {
+    this.currentTeam = currentTeam;
+  }
+
+  public List<AvailablePlayer> getAvailablePlayers()
+  {
+    return availablePlayers;
+  }
+
+  public void setAvailablePlayers(List<AvailablePlayer> availablePlayers)
+  {
+    this.availablePlayers = availablePlayers;
+  }
+
+  public List<UserPlayer> getUserPlayers()
+  {
+    return userPlayers;
+  }
+
+  public void setUserPlayers(List<UserPlayer> userPlayers)
+  {
+    this.userPlayers = userPlayers;
+  }
+
+  public Integer getNextMatchIn()
+  {
+    return nextMatchIn;
+  }
+
+  public void setNextMatchIn(Integer nextMatchIn)
+  {
+    this.nextMatchIn = nextMatchIn;
+  }
+
+  public Integer getMatchesToComeMercato()
+  {
+    return matchesToComeMercato;
+  }
+
+  public void setMatchesToComeMercato(Integer matchesToComeMercato)
+  {
+    this.matchesToComeMercato = matchesToComeMercato;
+  }
+
+  public Integer getMatchesToComeReal()
+  {
+    return matchesToComeReal;
+  }
+
+  public void setMatchesToComeReal(Integer matchesToComeReal)
+  {
+    this.matchesToComeReal = matchesToComeReal;
+  }
+
+  public Integer getNextTurnIn()
+  {
+    return nextTurnIn;
+  }
+
+  public void setNextTurnIn(Integer nextTurnIn)
+  {
+    this.nextTurnIn = nextTurnIn;
+  }
+
+  @Override public String toString()
+  {
+    return "Mercato{" + "leagueId='" + leagueId + '\'' + ", turn=" + turn + ", season=" + season + ", statusLeague=" + statusLeague + ", currentUser='"
+            + currentUser + '\'' + ", championship=" + championship + ", statusTeam=" + statusTeam + ", leagueMode=" + leagueMode + ", budget=" + budget
+            + ", currentTeam='" + currentTeam + '\'' + ", availablePlayers=" + availablePlayers + ", userPlayers=" + userPlayers + ", nextMatchIn="
+            + nextMatchIn + ", matchesToComeMercato=" + matchesToComeMercato + ", matchesToComeReal=" + matchesToComeReal + ", nextTurnIn=" + nextTurnIn + '}';
+  }
 }
